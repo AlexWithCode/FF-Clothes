@@ -1,23 +1,25 @@
 [
   {
-    "productId": 1,
-    "productName": "Leaf Rake",
-    "productCode": "GDN-0011",
-    "releaseDate": "March 19, 2021",
-    "description": "Leaf rake with 48-inch wooden handle.",
-    "price": 19.95,
-    "starRating": 3.2,
-    "imageUrl": "assets/images/leaf_rake.png"
+    "productId": 2,
+    "productName": "Снегурочка Снежинка",
+    "productCode": "SNSx-01",
+    "sale": "10 %",
+    "dateSale": "31.12.2021",
+    "description": "Атласная белая ткань с металлическим отливом, круппные узоры, застежки на липучках. В комплекте шубка, варежки, шапочка.",
+    "price": "2610",
+    "starRating": 4.2,
+    "imageUrl": "assets/images/sn-s-01.png"
   },
   {
-    "productId": 2,
-    "productName": "Garden Cart",
-    "productCode": "GDN-0023",
-    "releaseDate": "March 18, 2021",
-    "description": "15 gallon capacity rolling garden cart",
-    "price": 32.99,
-    "starRating": 4.2,
-    "imageUrl": "assets/images/garden_cart.png"
+    "productId": 5,
+    "productName": "Дед Мороз Боярский Синий",
+    "productCode": "DMBS-01",
+    "sale": "",
+    "dateSale": "",
+    "description": "Бархатная мягкая синяя ткань с длинношерстным мехом, блестящими крупными узорами и вшитыми бусинами. В комплекте шуба, варежки, шапка, пояс, мешок.",
+    "price": "6900",
+    "starRating": 4.8,
+    "imageUrl": "assets/images/dm-bs-01.png"
   },
   {
     "productId": 5,

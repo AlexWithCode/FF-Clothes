@@ -37,7 +37,7 @@
                     <tr *ngFor='let product of filteredProducts'>
                         <td>
                             <img *ngIf='showImage'
-                             [src]="product.imageUrl"
+                             [src]='product.imageUrl'
                              [title]='product.productName'
                              [style.width.px]='imageWidth'
                              [style.margin.px]='imageMargin'>
@@ -46,7 +46,11 @@
                         <td>{{ product.sale }}</td>  
                         <td>{{ product.dateSale }} </td> 
                         <td>{{ product.price | currency: '₽ ' : 'symbol' : '4.2-2'}}</td>
-                        <td>{{ product.starRating }}</td>
+                        <td>
+                            <!-- bind the nested components input property in the container's template using property binding. Then set the binding to the value we want to pass in to the nested component. And for event binding use the parentheses and specify name onRatingCliked of the event to listen for ratingCliked event-->
+                            <ff-star [rating]='product.starRating' (ratingClicked)='onRatingClicked($event)'>
+
+                            </ff-star></td>
                         <td>{{ product.productCode | lowercase | ConvertToSpaces: '-' }}</td>
                     </tr>
                 </tbody>
